@@ -13,7 +13,7 @@
 
   const handleSelect = (e: any): void => (rating = e.detail);
 
-  const handleSubmit = () => {
+  const handleSubmit = (): void => {
     if (text.trim().length >= min) {
       const newFeedback = {
         id: uuidv4(),
