@@ -2,7 +2,7 @@
 
 This project was initially created by [Brad Traversy](https://github.com/bradtraversy) and is based on his [svelte-feedback-app](https://github.com/bradtraversy/svelte-feedback-app).
 
-I took the opportunity to code and learn along his [video crash course](https://youtu.be/3TVy6GdtNuQ) and decided to use SCSS and TypeScript instead of using plain JavaScript und CSS.
+I took the opportunity to code and learn along his [video crash course](https://youtu.be/3TVy6GdtNuQ) and decided to use SCSS and TypeScript instead of using plain JavaScript and CSS.
 
 ## Getting started
 
@@ -15,7 +15,7 @@ cd svelte-rating-app
 npm install # you can also use yarn install
 ```
 
-...then start the app with [Rollup](https://rollupjs.org):
+...then start the app:
 
 ```bash
 npm run dev # or use yarn dev
