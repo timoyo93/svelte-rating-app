@@ -6,11 +6,7 @@
 </script>
 
 <div class="feedback-stats">
-  {#if count === 1}
-    <h4>{count} Review</h4>
-  {:else}
-    <h4>{count} Reviews</h4>
-  {/if}
+  <h4>{count} {count === 1 ? "Review" : "Reviews"}</h4>
 
   <h4>Ratings Average: {average ? average.toFixed(1) : 0}</h4>
 </div>
